@@ -4,7 +4,7 @@
     padding:0;
     margin: 0;
     box-sizing: border;
-    border: 1px solid black;
+
 }
 
 /*body{
@@ -25,7 +25,7 @@ p{
 
 #navigation{
 
-   margin-bottom:  10px;
+    margin-bottom:  10px;
     display: grid;
     grid-template-columns: 20% repeat(5, auto) 20%;
 }
@@ -33,11 +33,12 @@ p{
 .moveForward{
     grid-column-start: 2;
 }
-a{
+.nav-button{
     text-align: center;
     height: 30px;
-    border: 1px solid black;
+   
 }
+
 a:hover{
     background-color:rgba(25, 52, 18, 0.225);
 }
@@ -50,10 +51,28 @@ a:hover{
     display :grid;
     grid-template-columns: 67% auto;
     height: 300px;
-    background-color: aqua;
+    
 }
 .article{
     display: grid;
     grid-template-columns: 20% auto;
-    background-color: rgb(57, 134, 149);
+    border: 1px solid black;
+   
+  
+    
+}
+.date{
+    font-style: oblique;
+    font-size: .6rem;
+}
+.article-text{
+    font-size: .7rem;
+}
+.Article-link {
+    font-size:  .7rem;
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+}
+.article-image> img{
+    width: 100px;
 }
