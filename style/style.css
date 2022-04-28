@@ -4,6 +4,7 @@
     padding:0;
     margin: 0;
     box-sizing: border;
+    border: 1px solid black;
 }
 
 /*body{
@@ -23,7 +24,8 @@ p{
 }
 
 #navigation{
-   
+
+   margin-bottom:  10px;
     display: grid;
     grid-template-columns: 20% repeat(5, auto) 20%;
 }
@@ -38,4 +40,15 @@ a{
 }
 a:hover{
     background-color:rgba(25, 52, 18, 0.225);
+}
+.centerText{
+    text-align: center;
+    padding: 10px 0;
+}
+#blog-container{
+
+    display :grid;
+    grid-template-columns: 67% auto;
+    height: 300px;
+    background-color: aqua;
 }
