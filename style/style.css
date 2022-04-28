@@ -6,3 +6,18 @@
     box-sizing: border;
 }
 
+/*body{
+    display: grid;
+    grid-template-columns: 250px 33% 33%;
+}*/
+
+p{
+    border: 1px solid black;
+}
+
+/* To center content , set width -margin:0-auto*/
+#container{
+    background-color:  rgb(230, 0, 255);
+    width: 80%;
+    margin:0 auto;
+}
