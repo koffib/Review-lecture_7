@@ -23,7 +23,7 @@ p{
 }
 
 #navigation{
-    background-color: aqua;
+   
     display: grid;
     grid-template-columns: 20% repeat(5, auto) 20%;
 }
@@ -37,5 +37,5 @@ a{
     border: 1px solid black;
 }
 a:hover{
-    background-color:rgb(255, 230, 0);
+    background-color:rgba(25, 52, 18, 0.225);
 }
