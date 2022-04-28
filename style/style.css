@@ -57,6 +57,7 @@ a:hover{
     display: grid;
     grid-template-columns: 20% auto;
     border: 1px solid black;
+    gap: 5px;
    
   
     
